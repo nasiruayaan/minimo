@@ -1,0 +1,277 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: minimo
+	Description: minimo related template
+	Author: md nasir
+	Author URI: http://www.nasir.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 logo Area
+		2.2 memu area 
+	3. Images Area 
+    4. Getaway Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+@font-face {
+    font-family: 'playfairdisplay';
+    src: url('fonts/PlayfairDisplay.ttf') format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'playfairdisplaybold';
+    src: url('PlayfairDisplaybold.ttf') format(ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: 'playfairdisplay';
+}
+h3 {
+    font-family: 'playfairdisplaybold';
+    font-size: 35px;
+    color: #626262;
+}
+p {
+    font-family: 'playfairdisplay';
+    font-size: 18px;
+    color: #626262;
+    line-height: 1.3em;
+}
+h5 {
+    font-family: 'playfairdisplaybold';
+    font-size: 16px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+}
+/************** 2. Header Area ************************/
+.header-area {
+    padding: 80px 0;
+    overflow: hidden;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* 2.1 logo Area */
+.logo-area {
+    width: 30%;
+    float: left;
+}
+/* 2.2 memu area  */
+.menu-area {
+    width: 70%;
+    overflow: hidden;
+}
+.menu-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-area ul li {
+    display: inline;
+    margin: 0 40px;
+}
+.menu-area ul li:last-child {
+    margin-right: 0;
+}
+.menu-area ul li a {
+    font-family: 'playfairdisplay';
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    padding-bottom: 8px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+}
+.menu-area ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+/************** 3. images Area ************************/
+.images-area img {
+    width: 100%;
+    height: auto;
+}
+/************** 4. Getaway Area ************************/
+.getaway-area .container {
+    max-width: 960px;
+}
+.getaway-area {
+   padding: 70px 0; 
+}
+
+.getaway-area p {
+    padding-bottom: 30px;
+}
+
+/************** 4. blog area ************************/
+.blog-area .container {
+    max-width: 960px;
+}
+
+.col-1-2 {
+    width: 47%;
+    float: left;
+    overflow: hidden;
+}
+.col-1-2:first-child {
+    margin-right: 6%;
+}
+.col-1-2 h3 {
+    font-weight: 400;
+    margin: 20px 0;
+}
+.col-1-2 img {
+    width: 100%;
+    height: auto;
+}
+.service-area {
+    overflow: hidden;
+}
+.service-area:last-child {
+    padding: 100px 0;
+}
+ .newslater-area .container {
+    max-width: 960px;
+}
+.newslater{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    text-align: center;
+}    
+.signup{
+    text-align: center;
+}
+.signup h1{
+    color:#333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+/************** 5. newslater area ************************/
+.newslater{
+    background-color: #f0f0f0;
+    
+    padding: 70px 0;
+    text-align: center;
+}
+.signup{
+    text-align: center;
+}
+.s--h1{
+    color:#333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.form1{
+   width: 400px;
+
+   margin: 0 auto;
+   position:relative;
+}
+.form1 input{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    width:345px ;
+    height:45px ;
+    border:none;
+    color:#626262;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    padding-left: 5px;
+    padding-right:45px ;
+    padding-right:45px ;
+}
+.form1:focus{
+    outline:0;
+}
+.form1 button{
+    position:absolute;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    top:14px;
+    right:0;
+}
+.form1 button:focus{
+    outline: 0;
+}
+
+/************** 6. second bloag area ************************/
+.second {
+    padding: 70px 0;
+}
+.load{
+    margin:100px 0;
+    text-align: center;
+
+}
+.load button{
+    width: 165px;
+    height:60px;
+    background-color: transparent;
+    border: 1px #626262 solid;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#626262;
+    transition: 0.33s;
+
+}
+.load button:hover{
+    background-color: #626262;
+    color:white;
+}
+/************** 7. footer area ************************/
+.footer {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.pages {
+    width: 45%;
+    float: left;
+}
+.pages ul li {
+    list-style: none;
+    float: left;
+}
+.pages ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+.social {
+    width: 50%;
+    float: right;
+}
+.social ul {
+    float: right;
+}
+.social ul li {
+    list-style: none;
+    float: left;
+}
+.social ul li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+}
